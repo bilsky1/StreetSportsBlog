@@ -45,8 +45,6 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-gem 'rack'
-
 gem 'rb-readline'
 
 # Use ActiveModel has_secure_password
