@@ -47,7 +47,7 @@ end
 
 gem 'rack'
 
-gem 'rb-readline'
+gem 'rb-readline', '0.4.2'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
