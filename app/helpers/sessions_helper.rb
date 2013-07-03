@@ -5,7 +5,7 @@ module SessionsHelper
   end
 
   def signed_in?
-    current_user.nil? != true
+    !current_user.nil?
   end
 
   def current_user=(user)
@@ -16,7 +16,9 @@ module SessionsHelper
     # ||= (“or equals”) means
     # if current user is not false
     # then find user by find_by method
-    @current_user ||= User.find_by(remember_token: cookies[:remember_token])
+    if cookies[:remember_token].present?
+      @current_user ||= User.find_by_remember_token(cookies[:remember_token])
+    end
   end
 
   def sign_out
