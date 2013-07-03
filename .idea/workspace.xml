@@ -4,10 +4,7 @@
     <option name="ANALYSIS_IN_BACKGROUND" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee390fc0-acc6-444f-975b-f4b4b94b3e9e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/sessions_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/sessions_helper.rb" />
-    </list>
+    <list default="true" id="ee390fc0-acc6-444f-975b-f4b4b94b3e9e" name="Default" comment="" />
     <ignored path="StreetSportsBlog.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="ee390fc0-acc6-444f-975b-f4b4b94b3e9e" time="1372848230942" ignored="false" />
@@ -36,7 +33,7 @@
     <file path="/authentication_pages_spec.rb" changelist="ee390fc0-acc6-444f-975b-f4b4b94b3e9e" time="1372286421180" ignored="false" />
     <file path="/sessions_controller.rb" changelist="ee390fc0-acc6-444f-975b-f4b4b94b3e9e" time="1372288309886" ignored="false" />
     <file path="/application_controller.rb" changelist="ee390fc0-acc6-444f-975b-f4b4b94b3e9e" time="1372352245026" ignored="false" />
-    <file path="/sessions_helper.rb" changelist="ee390fc0-acc6-444f-975b-f4b4b94b3e9e" time="1372851122704" ignored="false" />
+    <file path="/sessions_helper.rb" changelist="ee390fc0-acc6-444f-975b-f4b4b94b3e9e" time="1372851750405" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +56,7 @@
       <file leaf-file-name="sessions_helper.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/helpers/sessions_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="43" selection-start="262" selection-end="262" vertical-scroll-proportion="0.43589744">
+            <state line="12" column="72" selection-start="242" selection-end="242" vertical-scroll-proportion="0.16452992">
               <folding />
             </state>
           </provider>
@@ -728,7 +725,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/sessions_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="43" selection-start="262" selection-end="262" vertical-scroll-proportion="0.43589744">
+        <state line="12" column="72" selection-start="242" selection-end="242" vertical-scroll-proportion="0.16452992">
           <folding />
         </state>
       </provider>
