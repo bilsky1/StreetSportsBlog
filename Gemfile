@@ -55,6 +55,12 @@ gem 'rack'
 
 gem 'rb-readline', '0.4.2'
 
+gem 'faker', '1.1.2'
+
+gem 'will_paginate', '3.0.4'
+
+gem 'bootstrap-will_paginate', '0.0.9'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
