@@ -14,6 +14,7 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find(params[:id])
+    @microposts = @user.microposts.paginate(page: params[:page])
   end
 
   def create
@@ -43,6 +44,7 @@ class UsersController < ApplicationController
 
   def destroy
     user = User.find(params[:id])
+    #current_user? user is the same as current_user.is == user.id
     if (current_user? user) && (current_user.admin?)
       flash[:error] = "You are not allowed to delete yourself as an admin."
     else
